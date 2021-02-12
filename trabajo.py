@@ -9,7 +9,7 @@ precio_descuento = (precio_de_los_productos * 10) / 100
 
 print("El precio de los productos con descuento  es $",precio_de_los_productos - precio_descuento )
 
-precio_iva = (precio_descuento * 100 * 13) / 100
+precio_iva = (precio_de_los_productos * 100 * 13) / 100
 
 print("El precio de los productos con IVA  es $",precio_de_los_productos + precio_iva )
 
